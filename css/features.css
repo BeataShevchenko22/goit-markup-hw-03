@@ -1,11 +1,11 @@
 .features {
+  padding: 120px 0;
 }
 .features-title {
 }
 .features-list {
   display: flex;
   gap: 24px;
-  padding: 120px 0;
 }
 .features-item {
   width: calc((100% - (3 * 24px)) / 4);
@@ -20,16 +20,4 @@
   margin-bottom: 8px;
 }
 .features-descr {
-}
-.sr-only {
-  position: absolute; /* Виймає елемент з потоку, щоб не впливав на сусідів */
-  width: 1px; /* Зменшує ширину до 1 пікселя */
-  height: 1px; /* Зменшує висоту до 1 пікселя */
-  margin: -1px; /* Зміщує елемент, щоб він не займав видимого місця */
-  border: 0; /* Прибирає рамку */
-  padding: 0; /* Прибирає внутрішні відступи */
-  white-space: nowrap; /* Запобігає переносу тексту */
-  overflow: hidden; /* Приховує будь-який вміст, що виходить за межі 1x1 пікселя */
-  clip: rect(0 0 0 0); /* Обрізає видиму область елемента */
-  clip-path: inset(50%); /* Альтернатива clip для сучасних браузерів */
 }

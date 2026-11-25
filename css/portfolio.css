@@ -1,4 +1,5 @@
 .portfolio {
+  padding: 120px 0;
 }
 .portfolio-title {
   font-family: 'Roboto', sans-serif;
@@ -8,13 +9,11 @@
   text-align: center;
   color: #2e2f42;
   margin-bottom: 72px;
-  padding-top: 120px;
 }
 .portfolio-list {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
-  padding-bottom: 120px;
   row-gap: 48px;
 }
 .portfolio-item {
@@ -41,7 +40,6 @@
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   padding: 32px 16px;
-  width: 360px;
   background: #fff;
   padding: 32px 16px;
 }

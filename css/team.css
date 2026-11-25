@@ -1,5 +1,6 @@
 .team {
   background: #f4f4fd;
+  padding: 120px 0;
 }
 .team-title {
   font-family: 'Roboto', sans-serif;
@@ -10,19 +11,18 @@
   text-align: center;
   color: #2e2f42;
   margin-bottom: 72px;
-  padding-top: 120px;
 }
 .team-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
   flex-direction: row;
-  border-radius: 0 0 4px 4px;
 }
 .team-item {
   background: #fff;
+  border-radius: 0 0 4px 4px;
 }
 .team-img {
+  display: block;
 }
 .team-subtitle {
   font-family: 'Roboto', sans-serif;
