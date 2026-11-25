@@ -1,0 +1,23 @@
+.main-nav {
+}
+.main-nav-list {
+}
+.main-nav-item {
+}
+.main-nav-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #2e2f42;
+}
+.main-nav-link:hover,
+.main-nav-link:focus {
+  color: #404bbf;
+}
+.socials {
+}
+.socials-item {
+}
+.socials-link:hover,
+.socials-link:focus {
+  color: #404bbf;
+}
