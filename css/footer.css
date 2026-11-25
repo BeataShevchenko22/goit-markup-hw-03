@@ -1,7 +1,10 @@
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 .footer-descr {
   font-family: 'Roboto', sans-serif;
   color: #f4f4fd;
+  max-width: 264px;
+  margin-top: 16px;
 }

@@ -8,7 +8,20 @@ body {
 }
 ol,
 ul {
+  margin: 0;
+  padding-left: 0;
   list-style-type: none;
+}
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -29,6 +42,8 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  margin-right: 76px;
+  padding: 24px 0;
 }
 .logo-footer {
   font-family: 'Raleway', sans-serif;
@@ -41,4 +56,9 @@ address {
 }
 .logo-accent {
   color: #4d5ae5;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0px 15px;
 }
